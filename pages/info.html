@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Successful</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">ABONE OL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/unsubscribe">ABONELİKTEN ÇIK</a>
+                </li>
+            </ul>
+            <span class="nav navbar-nav navbar-right ml-auto"></span>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h2>İşlem Başarılı</h2>
+            <h3>Maili {{.Email}} olan kullanıcı artık ürüne abone değil!</h3>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+</div>
+<h1>{{.Email}}</h1>
+<h2>{{.Site}}</h2>
+<h3>{{.Link}}</h3>
+<h1>{{.Price}}</h1>
+</body>
+</html>

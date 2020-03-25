@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.active > a.nav-link {
+    color: white;
+}
+
+.page-header {
+    padding-top: 10px;
+}
+
+.badge {
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    padding-top: 5px;
+}
+
+button#btnsign {
+    background-color: #03A9F4;
+}
+
+@media (max-width: 1200px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+@media (min-width: 992px) {
+    img#me {
+        border-radius: 50%;
+        margin-right: 30px;
+        margin-top: 150px;
+    }
+
+    h1#aboutMe {
+        margin-bottom: 0px;
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+    img#me {
+        border-radius: 50%;
+        margin-right: 0px;
+        margin-top: 150px;
+    }
+
+    h1#aboutMe {
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    p#aboutMe {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+    img#me {
+        border-radius: 50%;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+
+    h1#aboutMe {
+        margin-bottom: 0px;
+        margin-top: 00px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 576px) {
+    .col-md-6 {
+        text-align: center;
+    }
+}
